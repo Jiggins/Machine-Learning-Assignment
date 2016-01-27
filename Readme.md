@@ -61,8 +61,9 @@ you might want to reality-check off-list ideas for non-silliness.
     blurbs given the same topic? The drug discovery ones? Etc.)
 
 ## Code Breakdown
-There are two modules here at the moment, `Parser.RatingsMatrixParser` and
-`Types.Marker`.
+There are two modules here at the moment,
+[Parser.RatingsMatrixParser](https://github.com/Jiggins/Machine-Learning-Assignment/blob/master/src/Parser/RatingsMatrixParser.hs)
+and [Types.Marker](https://github.com/Jiggins/Machine-Learning-Assignment/tree/master/src/Types).
 
 - `Parser.RatingsMatrixParser` uses **Parser Combinators** provided by the
     [parsec library](https://hackage.haskell.org/package/parsec) to parse the
