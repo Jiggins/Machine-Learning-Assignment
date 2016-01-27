@@ -59,3 +59,13 @@ you might want to reality-check off-list ideas for non-silliness.
     absent; and then doing NMF or some other decomposition on this matrix, and
     then looking for interesting structure in the result. (E.g., are the cancer
     blurbs given the same topic? The drug discovery ones? Etc.)
+
+## Code Breakdown
+There are two modules here at the moment, `Parser.RatingsMatrixParser` and
+`Types.Marker`.
+
+- `Parser.RatingsMatrixParser` uses **Parser Combinators** provided by the
+    [parsec library](https://hackage.haskell.org/package/parsec) to parse the
+    data given into Haskell types.
+
+- `Types.Marker` - Contains the types that used in the program.
