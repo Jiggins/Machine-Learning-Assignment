@@ -6,8 +6,6 @@ module Parser.RatingsMatrixParser
   , ratings
   ) where
 
-import System.IO
-
 import Types.Marker
 
 import Text.Parsec
