@@ -1,10 +1,15 @@
 module Types.Marker where
 
-data Rank = Rank { id :: String
+import Data.Function
+
+data Rank = Rank { rankId :: String
                  , rank :: Int
                  } deriving (Eq, Show)
 
-data Rating = Rating { rater :: String
-                     , ratee :: String
-                     , score :: Double
+instance Ord Rank where
+  compare = compare `on` rank
+
+data Rating = Rating { raterId :: String
+                     , rateeId :: String
+                     , score   :: Double
                      } deriving (Eq, Show)
