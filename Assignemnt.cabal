@@ -19,10 +19,10 @@ executable Assignemnt
   other-modules:      Matrix.MatrixBuilder,
                       Parser.RatingsMatrixParser,
                       Types.Marker,
-                      Types.MatrixEntry,
-                      Types.Rater
+                      Types.MatrixEntry
   build-depends:      base >=4.8 && <4.9,
                       containers,
+                      hmatrix,
                       parsec,
                       parsec-numbers
   hs-source-dirs:     src
